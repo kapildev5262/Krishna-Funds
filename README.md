@@ -157,7 +157,7 @@ yarn format
    code .
    ```
 
-2. Run local Ethereum blockchain
+2. Run local Ethereum blockchain (Which will also deploy smart contract to the (local) blockchain network (i.e hardhat node)
 
    ```shell
    cd ../
@@ -172,24 +172,9 @@ yarn format
 
    Chain ID: `31337`
 
-4. Import account(s) using private keys from ganache-cli to the metamask extension on the browser
+4. Import account(s) using private keys from hardhat node to the metamask extension on the browser
 
-5. Deploy smart contract to the (local) blockchain network (i.e ganache-cli)
-
-   ```shell
-   # on the dVoting directory
-   truffle migrate
-   ```
-
-   > Note: Use `truffle migrate --reset` for re-deployments
-
-6. Launch the development server (frontend)
-
-   ```shell
-   cd client
-   npm install
-   npm start
-   ```
-
+5. Open your index.html in the browser which also have metamask extension added into it.
+6. Now intract with the blockchain using frontend.
 
 # Thank you!
