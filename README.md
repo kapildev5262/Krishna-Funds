@@ -40,8 +40,8 @@
 ## Quickstart
 
 ```
-git clone https://github.com
-cd hardhat-fund-me
+git clone https://github.com/kapildev5262/Krishna-Funds
+cd Krishna-Funds
 yarn
 ```
 
