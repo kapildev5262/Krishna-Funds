@@ -153,7 +153,7 @@ yarn format
 
    ```shell
    git clone https://github.com/kapildev5262/Krishna-Funds.git
-   cd cd Krishna-Funds/html-fund-me
+   cd Krishna-Funds/html-fund-me
    code .
    ```
 
