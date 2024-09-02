@@ -40,7 +40,7 @@
 ## Quickstart
 
 ```
-git clone https://github.com/kapildev5262/Krishna-Funds
+git clone https://github.com/kapildev5262/Krishna-Funds.git
 cd Krishna-Funds
 yarn
 ```
@@ -147,7 +147,49 @@ yarn lint:fix
 yarn format
 ```
 
-# Full-stack 
+### Configuring the project for development
+
+1. Clone this repository
+
+   ```shell
+   git clone https://github.com/kapildev5262/Krishna-Funds.git
+   cd cd Krishna-Funds/html-fund-me
+   code .
+   ```
+
+2. Run local Ethereum blockchain
+
+   ```shell
+   cd ../
+   yarn hadhat node
+   ```
+
+   > Note: Do not close `hardhat node` (the blockchain network needs to be running all the time)
+
+3. Configure metamask on the browser with the following details
+
+   New RPC URL: `http://127.0.0.1:8545`
+
+   Chain ID: `31337`
+
+4. Import account(s) using private keys from ganache-cli to the metamask extension on the browser
+
+5. Deploy smart contract to the (local) blockchain network (i.e ganache-cli)
+
+   ```shell
+   # on the dVoting directory
+   truffle migrate
+   ```
+
+   > Note: Use `truffle migrate --reset` for re-deployments
+
+6. Launch the development server (frontend)
+
+   ```shell
+   cd client
+   npm install
+   npm start
+   ```
 
 
 # Thank you!
