@@ -1,8 +1,8 @@
-# Hardhat Fund Me
+# Krishna-Funds
 
 *This repo has been updated to work with Sepolia Testnet.*
 
-[Full Repo](https://github.com)
+[Full Repo](https://github.com/kapildev5262/Krishna-Funds)
 
 - [Hardhat Fund Me](#hardhat-fund-me)
 - [Getting Started](#getting-started)
