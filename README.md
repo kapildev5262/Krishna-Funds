@@ -157,7 +157,7 @@ yarn format
    code .
    ```
 
-2. Run local Ethereum blockchain (Which will also deploy smart contract to the (local) blockchain network (i.e hardhat node)
+2. Run local Ethereum blockchain which will also deploy smart contract to the (local) blockchain network (i.e hardhat node)
 
    ```shell
    cd ../
