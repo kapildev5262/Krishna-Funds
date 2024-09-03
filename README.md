@@ -161,7 +161,7 @@ yarn format
 
    ```shell
    cd ../
-   yarn hadhat node
+   yarn hardhat node
    ```
 
    > Note: Do not close `hardhat node` (the blockchain network needs to be running all the time)
