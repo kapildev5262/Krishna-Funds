@@ -4,12 +4,9 @@
 
 [Full Repo](https://github.com/kapildev5262/Krishna-Funds)
 
-- [Hardhat Fund Me](#hardhat-fund-me)
 - [Getting Started](#getting-started)
   - [Requirements](#requirements)
   - [Quickstart](#quickstart)
-  - [Typescript](#typescript)
-    - [Optional Gitpod](#optional-gitpod)
 - [Usage](#usage)
   - [Testing](#testing)
     - [Test Coverage](#test-coverage)
@@ -20,6 +17,7 @@
   - [Verify on etherscan](#verify-on-etherscan)
 - [Linting](#linting)
 - [Formatting](#formatting)
+- [Configuring the project for development](#Configuring-the-project-for-development)
 - [Thank you!](#thank-you)
 
 
